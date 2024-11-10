@@ -7,10 +7,16 @@ export default function Home() {
     {
       label: "Home",
       icon: "pi pi-home",
+      command: () => {
+        navigate("/");
+      },
     },
     {
       label: "Blog",
       icon: "pi pi-star",
+      command: () => {
+        navigate("/contact");
+      },
     },
     {
       label: "Company",
@@ -19,14 +25,23 @@ export default function Home() {
         {
           label: "Background",
           icon: "pi pi-bolt",
+          command: () => {
+            navigate("/contact");
+          },
         },
         {
           label: "About Us",
           icon: "pi pi-server",
+          command: () => {
+            navigate("/contact");
+          },
         },
         {
           label: "Mission",
           icon: "pi pi-pencil",
+          command: () => {
+            navigate("/contact");
+          },
         },
       ],
     },
