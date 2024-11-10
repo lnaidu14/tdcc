@@ -1,5 +1,5 @@
 import { Menubar } from "primereact/menubar";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Outlet } from "react-router-dom";
 
 export default function Navigation() {
   const navigate = useNavigate();
@@ -12,35 +12,21 @@ export default function Navigation() {
       },
     },
     {
-      label: "Blog",
-      icon: "pi pi-star",
-      command: () => {
-        navigate("/contact");
-      },
-    },
-    {
       label: "Company",
       icon: "pi pi-search",
       items: [
         {
-          label: "Background",
-          icon: "pi pi-bolt",
-          command: () => {
-            navigate("/contact");
-          },
-        },
-        {
           label: "About Us",
           icon: "pi pi-server",
           command: () => {
-            navigate("/contact");
+            navigate("/about");
           },
         },
         {
-          label: "Mission",
-          icon: "pi pi-pencil",
+          label: "Blog",
+          icon: "pi pi-server",
           command: () => {
-            navigate("/contact");
+            navigate("/blog");
           },
         },
       ],
@@ -57,6 +43,7 @@ export default function Navigation() {
   return (
     <>
       <Menubar model={items} />
+      <Outlet />
     </>
   );
 }

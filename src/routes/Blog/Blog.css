@@ -1,0 +1,9 @@
+.post {
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.post:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}

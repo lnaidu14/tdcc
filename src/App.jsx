@@ -1,7 +1,10 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import Home from "./routes/Home";
-import Contact from "./routes/Contact";
+import Home from "./routes/Home/Home";
+import Contact from "./routes/Contact/Contact";
+import About from "./routes/About/About";
+import Blog from "./routes/Blog/Blog";
+import Post from "./routes/Post/Post";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -12,21 +15,22 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+
       {
         path: "/about",
-        element: <Contact />,
+        element: <About />,
       },
       {
-        path: "/background",
-        element: <Contact />,
-      },
-      {
-        path: "/mission",
-        element: <Contact />,
+        path: "/blog",
+        element: <Blog />,
       },
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/blog/posts/:id",
+        element: <Post />,
       },
     ],
   },
