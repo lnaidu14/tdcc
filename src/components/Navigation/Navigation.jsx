@@ -13,18 +13,16 @@ export default function Navigation() {
     },
     {
       label: "Company",
-      icon: "pi pi-search",
+      icon: "pi pi-user",
       items: [
         {
           label: "About Us",
-          icon: "pi pi-server",
           command: () => {
             navigate("/about");
           },
         },
         {
           label: "Blog",
-          icon: "pi pi-server",
           command: () => {
             navigate("/blog");
           },
