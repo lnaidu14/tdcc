@@ -40,8 +40,10 @@ export default function Navigation() {
 
   return (
     <>
-      <Menubar model={items} />
-      <Outlet />
+      <div className="nav">
+        <Menubar model={items} />
+        <Outlet />
+      </div>
     </>
   );
 }

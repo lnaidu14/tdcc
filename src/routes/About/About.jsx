@@ -32,17 +32,18 @@ export default function About() {
           accelerator of development of new technologies, concepts, and
           products. Although we are not limited to any particular area and the
           experience of the personnel and pool of advisory resources range from
-          Cloud Architecture, Artificial Intelligence Applications, intelligent
-          robotics, design for automation, customized controllers to user
-          interfaces, manufacturing systems and work flow designs, virtual
-          reality, software development, and business development; our current
-          niche is biomedical devices related technology development (both
-          hardware and software). TechnoDevelop Corporation is also interested
-          in helping to accelerate design for environment. One of our main goals
-          in this direction is to partner with industry and service
-          organizations to facilitate techno-economically viable business
-          methods and models that reduce, eliminate or replace traditional use
-          of resources such as paper and plastic.
+          Cloud Architecture, Artificial Intelligence Applications, Machine
+          Learning, Data Analysis, Intelligent robotics, design for automation,
+          customized controllers to user interfaces, manufacturing systems and
+          work flow designs, virtual reality, software development, and business
+          development; our current niche is biomedical devices related
+          technology development (both hardware and software). TechnoDevelop
+          Corporation is also interested in helping to accelerate design for
+          environment. One of our main goals in this direction is to partner
+          with industry and service organizations to facilitate
+          techno-economically viable business methods and models that reduce,
+          eliminate or replace traditional use of resources such as paper and
+          plastic.
         </p>
 
         <h3>Our Mission</h3>

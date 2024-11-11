@@ -1,11 +1,5 @@
 .footer {
-  width: 100%;
-}
-
-.footer-items {
-  display: flex;
-}
-
-.footer-items * {
-  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
