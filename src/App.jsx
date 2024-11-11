@@ -1,5 +1,6 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
+import Footer from "./components/Footer/Footer";
 import Home from "./routes/Home/Home";
 import Contact from "./routes/Contact/Contact";
 import About from "./routes/About/About";
@@ -15,7 +16,6 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-
       {
         path: "/about",
         element: <About />,
@@ -39,7 +39,10 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <div className="container">
+        <RouterProvider router={router} />
+        <Footer />
+      </div>
     </>
   );
 }

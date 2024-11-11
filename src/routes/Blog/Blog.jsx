@@ -17,7 +17,8 @@ export default function Blog() {
       })
       .then((data) => setPosts(data))
       .catch((error) => console.error("Unable to fetch data:", error));
-  });
+  }, []);
+
   return (
     <>
       <div>
